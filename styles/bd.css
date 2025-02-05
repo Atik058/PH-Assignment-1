@@ -118,6 +118,9 @@ main{
 .vision-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap:24px;
+    
 
 }
 
@@ -125,19 +128,19 @@ main{
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
     padding: 32px;
-    width: 400px;
+    
 }
 .vision-2{
     background-color: #C6E4D6;
     border-radius: 16px;
     padding: 32px;
-    width: 400px;
+    
 }
 .vision-3{
     background-color: #F7EBCF;
     border-radius: 16px;
     padding: 32px;
-    width: 400px;
+    
 }
 
 .btn-blue{
@@ -167,3 +170,282 @@ main{
     font-weight: 600;
     font-size: 16px;
 }
+
+.name{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 0px;
+}
+.role{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.statemant{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 30px 24px;
+    background-color: white;
+    padding: 30px 24px 48px;
+    margin-top: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+/* Opinion */
+.opinion {
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd
+  }
+  
+  th {
+    background-color: #C6E4D6;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .td-ques{
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+  
+  select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e0f5eb;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-color: #0E0E0E;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #66afe9;
+  }
+  .td-select{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    width: 200px;
+  }
+
+
+  /* footer */
+  footer{
+    background-color: white;
+    padding: 50px 0px;
+  }
+  .ft-ttl{
+    text-align: center;
+    font-size: 32px ;
+    font-weight: 700;
+  }
+
+  .line{
+    width: 1122px;
+    /* height: 1px; */
+    color: rgba(14, 14, 14, 0.1);
+  }
+
+  .ft-img{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 32px;
+  }
+
+  .sub-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+
+  }
+  .sub-dscr{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+
+   input[type="text"]{
+    width: 700px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px 0px 5px 0px;
+    background-color: white;
+    display: block;
+    padding: 18px 30px;
+    border: none;
+    
+  }
+  .input-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /* news section Css */
+.news-card {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #fff;
+  }
+  
+  .news-card img {
+    border-radius: 24px;
+  }
+  
+  .news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans";
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .news-card p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .news-card p span {
+    margin-left: 20px;
+  }
+  
+  .news-card button {
+    border-radius: 8px;
+    background: #006a50;
+    padding: 13px 26px;
+    border: none;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .new {
+    margin-top: 80px;
+  }
+  
+  .new h2 {
+    color: #0e0e0e;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .new p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .new-2 {
+    margin: 24px 0px;
+  }
+  
+  .title {
+    color: #0e0e0e;
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 24px;
+  }
+  
+  .text {
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .donate{
+    margin: 80px 0px;
+  }
+  
+  .donate-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .donate-card {
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .donate-card h3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+  }
+  
+  .donate-amount {
+    margin-top: 30px;
+  }
+  
+  .donate-amount button {
+    display: flex;
+    width: 100%;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
+    background: #fff;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
